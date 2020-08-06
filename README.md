@@ -1,11 +1,8 @@
-[![深度数据](https://data.sndo.com/static/images/logoText.png)](https://data.sndo.com)
-<br><br>
-
 
 # sa-sdk-javascript
 ## 深度数据简介
 
-[**深度数据**](https://data.sndo.com)
+[**深度数据**]
 深度数据平台，是针对于企业用户开发的用户行为数据研究分析平台，通过多样化的数据上报方式，实现网站web，移动应用，第三方数据，自身业务数据多端聚合，将传统意义上不同的数据存储位置打通形成数据聚合平台。
 ## License
 
