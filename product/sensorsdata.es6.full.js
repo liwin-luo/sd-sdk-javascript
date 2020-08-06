@@ -4413,7 +4413,7 @@ var heatmap = sd.heatmap = {
     }
     if (web_url && web_url[0] && web_url[1]) {
       if (web_url[1].slice(0, 5) === 'http:' && location.protocol === 'https:') {
-        sd.errorMsg = '您的当前页面是https的地址，神策分析环境也必须是https！';
+        sd.errorMsg = '您的当前页面是https的地址，深度分析环境也必须是https！';
       }
     }
     if (!sd.para.heatmap_url) {
@@ -4729,7 +4729,7 @@ _.each(methods, function(method) {
     }
     if (!sd.readyState.getState()) {
       try {
-        console.error('请先初始化神策JS SDK');
+        console.error('请先初始化深度JS SDK');
       } catch (e) {
         sd.log(e);
       }
